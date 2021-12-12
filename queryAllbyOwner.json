@@ -1,6 +1,3 @@
-// 20211212212635
-// http://localhost:8080/api/queryAllbyOwner/
-
 {
   "response": {
     "x509::/OU=org1/OU=client/OU=department1/CN=appUser::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server": [
