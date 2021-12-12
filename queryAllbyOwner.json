@@ -1,0 +1,63 @@
+// 20211212212635
+// http://localhost:8080/api/queryAllbyOwner/
+
+{
+  "response": {
+    "x509::/OU=org1/OU=client/OU=department1/CN=appUser::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server": [
+      {
+        "allowed": [
+          "x509::/OU=org1/OU=client/OU=department1/CN=doctor1::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server",
+          "x509::/OU=org1/OU=client/OU=department1/CN=pharmacy1::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server",
+          "x509::/OU=org1/OU=client/OU=department1/CN=insurance1::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server"
+        ],
+        "data": "DataID1",
+        "docType": "record",
+        "owner": "x509::/OU=org1/OU=client/OU=department1/CN=appUser::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server",
+        "type": "Prescription"
+      },
+      {
+        "allowed": [
+          "x509::/OU=org1/OU=client/OU=department1/CN=doctor1::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server"
+        ],
+        "data": "DataID12",
+        "docType": "record",
+        "owner": "x509::/OU=org1/OU=client/OU=department1/CN=appUser::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server",
+        "type": "Prescription"
+      },
+      {
+        "allowed": [
+          "x509::/OU=org1/OU=client/OU=department1/CN=doctor1::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server",
+          "x509::/OU=org1/OU=client/OU=department1/CN=pharmacy1::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server",
+          "x509::/OU=org1/OU=client/OU=department1/CN=insurance1::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server"
+        ],
+        "data": "DataID13",
+        "docType": "record",
+        "owner": "x509::/OU=org1/OU=client/OU=department1/CN=appUser::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server",
+        "type": "Lab Report"
+      }
+    ],
+    "x509::/OU=org1/OU=client/OU=department1/CN=appUser1::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server": [
+      {
+        "allowed": [
+          "x509::/OU=org1/OU=client/OU=department1/CN=doctor1::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server",
+          "x509::/OU=org1/OU=client/OU=department1/CN=diagnostic_lab1::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server"
+        ],
+        "data": "DataID2",
+        "docType": "record",
+        "owner": "x509::/OU=org1/OU=client/OU=department1/CN=appUser1::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server",
+        "type": "Lab Report"
+      }
+    ],
+    "x509::/OU=org1/OU=client/OU=department1/CN=appUser2::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server": [
+      {
+        "allowed": [
+          "x509::/OU=org1/OU=client/OU=department1/CN=doctor2::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server"
+        ],
+        "data": "DataID3",
+        "docType": "record",
+        "owner": "x509::/OU=org1/OU=client/OU=department1/CN=appUser2::/C=US/ST=North Carolina/O=Hyperledger/OU=Fabric/CN=fabric-ca-server",
+        "type": "Prescription"
+      }
+    ]
+  }
+}
